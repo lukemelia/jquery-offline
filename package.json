@@ -1,6 +1,6 @@
 {
   "name": "jquery-offline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Yehuda Katz",
   "email": "wycats@gmail.com",
   "summary": "jQuery plugin for retrieving JSON with caching for offline access",
