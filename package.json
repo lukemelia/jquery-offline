@@ -1,0 +1,29 @@
+{
+  "name": "jquery-offline",
+  "version": "1.0.0",
+  "author": "Yehuda Katz",
+  "email": "wycats@gmail.com",
+  "summary": "jQuery plugin for retrieving JSON with caching for offline access",
+  "description": "The jQuery offline plugin provides an easy mechanism for retrieving JSON data from a remote server, and then caching it. Subsequent requests for the same URL will retrieve the data from the cache, rather than the remote server.",
+  "homepage": "https://github.com/wycats/jquery-offline",
+  "license": {
+    "name": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "bpm:build": {
+    "bpm_libs.js": {
+      "files": [
+        "lib/main.js",
+        "lib/jquery.offline.js"
+      ]
+    }
+  },
+  "dependencies": {
+    "jquery": ">= 0",
+    "spade": ">= 0"
+  },
+  "bpm": "1.0.0"
+}

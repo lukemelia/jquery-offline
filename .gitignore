@@ -1,1 +1,4 @@
 qunit
+*.bpkg
+.bpm
+assets
